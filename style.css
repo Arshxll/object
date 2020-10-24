@@ -1,0 +1,38 @@
+body {
+	background-color: #ffe6e6;
+}
+.obj1 {
+	width: 300px;
+	height: 300px;
+	animation: hideshow 10s 1.5s ease infinite;
+	display: inline-block;
+	position: relative;
+}
+.obj2 {
+	width: 300px;
+	height: 300px;
+	animation: hideshow 10s 1.5s ease infinite;
+	display: inline-block;
+	position: relative;
+}
+.obj3 {
+	width: 300px;
+	height: 300px;
+	animation: hideshow 10s 1.5s ease infinite;
+	display: inline-block;
+	position: relative;
+}
+.obj4 {
+	width: 300px;
+	height: 300px;
+	animation: hideshow 10s 1.5s ease infinite;
+	display: inline-block;
+	position: relative;
+}
+
+@keyframes hideshow{
+	 0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
